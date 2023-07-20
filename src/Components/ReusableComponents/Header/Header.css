@@ -1,0 +1,37 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  width: 100%;
+  margin-bottom: 9rem;
+}
+
+.nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link {
+  font-family: 'Evil of Frankenstein', sans;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+}
+
+.nav-link:hover {
+  color: #412b6f;
+}
+
+.logo {
+  height: 4.5rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 1172px) {
+  .header {
+    margin-bottom: 6rem;
+  }
+}
