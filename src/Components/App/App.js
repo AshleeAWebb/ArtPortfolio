@@ -9,6 +9,7 @@ import ErrorComponent from '../Error/Error';
 import './App.css';
 import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
+import '../../Assets/fonts/font.css';
 
 function App() {
   const [loading, setLoading] = useState(true);

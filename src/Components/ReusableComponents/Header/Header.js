@@ -6,28 +6,18 @@ import logo from '../../../Assets/Spooky Logo.svg';
 function Header() {
   return (
     <header>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Welcome</NavLink>
-          </li>
-          <li>
-            <NavLink to="/fineart">Fine Art</NavLink>
-          </li>
-          <li>
-            <NavLink to="/photography">Photography</NavLink>
-          </li>
-          <li>
-            <NavLink to="/webdesign">Web Design</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About Me</NavLink>
-          </li>
-        </ul>
-      </nav>
-      <NavLink to="/">
-        <img src={logo} alt="Logo" />
+      <div className='flex-header'>
+           <NavLink className="nav-link" to="/">
+        <img className='logo' src={logo} alt="Logo" />
       </NavLink>
+      <nav>
+            <NavLink className="nav-link" to="/fineart">Fine Art</NavLink>
+            <NavLink className="nav-link" to="/photography">Photography</NavLink>
+            <NavLink className="nav-link" to="/webdesign">Web Design</NavLink>
+            <NavLink className="nav-link" to="/about">About Me</NavLink>
+      </nav>
+      </div>
+ 
     </header>
   );
 }
