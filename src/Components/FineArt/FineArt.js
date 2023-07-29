@@ -1,5 +1,5 @@
 import React from 'react';
-import fineArtData from '../path/to/fineArtData'; // Update the path to your data file
+import fineArtData from '../data/fineArtData';
 
 function FineArt() {
   return (
