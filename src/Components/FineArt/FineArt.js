@@ -1,26 +1,22 @@
 import React from 'react';
+import fineArtData from '../path/to/fineArtData'; // Update the path to your data file
 
 function FineArt() {
   return (
     <div>
-      <img
-        src="https://storage.cloud.google.com/ashaubree-images/quickstart-folder/Float.jpg?authuser=4"
-        alt="Float"
-        style={{ width: '300px', height: 'auto' }}
-      />
-
-<img
-        src="https://i.imgur.com/3WMQzSe.jpg"
-        alt="Wired"
-        style={{ width: '300px', height: 'auto' }}
-      />
-      <img 
-      src="https://i.imgur.com/sqS3GKu.jpg?1"
-      alt="Night Bat"
-      style={{ width: '300px', height: 'auto'}}
-      />
+      {fineArtData.map((image, index) => (
+        <div key={index}>
+          <img
+            src={image.src}
+            alt={image.alt}
+            style={{ width: '300px', height: 'auto' }}
+          />
+          <p>{image.title}</p>
+        </div>
+      ))}
     </div>
   );
 }
 
 export default FineArt;
+
