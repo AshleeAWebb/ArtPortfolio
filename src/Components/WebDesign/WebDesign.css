@@ -1,0 +1,25 @@
+/* src/Projects.css */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card h2 {
+  font-size: 24px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card p {
+  margin: 10px 0;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+}
