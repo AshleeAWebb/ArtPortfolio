@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Photography/Photography.css';
 
 function Photography() {
   return (
