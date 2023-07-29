@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate, Link } from 'react-router-dom';
 import Welcome from '../Welcome/Welcome';
 import FineArt from '../FineArt/FineArt';
 import Photography from '../Photography/Photography';
@@ -9,7 +9,6 @@ import ErrorComponent from '../Error/Error';
 import './App.css';
 import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
-import '../../Assets/fonts/font.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,7 +26,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header /> {/* Render the header component */}
+        <Header /> 
         <main>
           <Routes>
             <Route path="/" element={<Welcome />} />

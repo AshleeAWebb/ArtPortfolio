@@ -25,9 +25,13 @@ li {
   margin-bottom: 10px;
 }
 
+.aboutMeInfo {
+  padding: 0 1rem;
+
+}
 .aboutme-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutme-logo {
