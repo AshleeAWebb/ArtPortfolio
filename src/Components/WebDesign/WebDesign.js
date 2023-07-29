@@ -9,7 +9,7 @@ function WebDesign() {
       {projectsData.map((project, index) => (
         <div className="project-card" key={index}>
           <h2>{project.title}</h2>
-          <img src={project.svgPath} alt={`${project.title} SVG`} />
+          <img src={project.img} alt={`${project.title}`} />
           <p>{project.description}</p>
           <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
             GitHub Repository
@@ -22,6 +22,5 @@ function WebDesign() {
     </div>
   );
 };
-
 
 export default WebDesign;
