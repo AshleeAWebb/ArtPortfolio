@@ -1,0 +1,62 @@
+h1,
+h2{
+  font-family: 'Evil of Frankenstein', sans;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.aboutme-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme-logo {
+  padding: .5rem;
+  font-size: 2.5rem;
+  height: 2rem;
+}
+
+.camera-logo {
+  font-size: 2.5rem;
+}
+
+.aboutme-link {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-logo{
+font-size: 2.5rem;
+}
