@@ -3,12 +3,12 @@ const fineArtData = [
   {
     src: "https://i.imgur.com/rAbvWqe.jpg",
     alt: "Float",
-    title: "Floating Witch",
+    title: "Float",
   },
   {
     src: "https://i.imgur.com/3WMQzSe.jpg",
     alt: "Wired",
-    title: "Wired Ghost",
+    title: "Wired",
   },
   {
     src: "https://i.imgur.com/sqS3GKu.jpg?1",
