@@ -4,6 +4,7 @@ import fineArtData from '../data/fineArtData';
 function FineArt() {
   return (
     <div>
+      <h1>Fine Art</h1>
       {fineArtData.map((image, index) => (
         <div key={index}>
           <img

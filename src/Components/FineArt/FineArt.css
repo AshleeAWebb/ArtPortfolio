@@ -1,4 +1,8 @@
-.img {
+img {
   width: 1rem;
-  padding: .5rem;
+  padding: 1rem;
+}
+
+h1 {
+  padding: 1rem 1rem;
 }
