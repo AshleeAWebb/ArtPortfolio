@@ -1,48 +1,46 @@
-.spooky {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.spooky-loader .spooky img {
-  max-width: 100%;
-  max-height: 100%;
+:root {
+  --bg: #e3e4e8;
+  --fg: #17181c;
+  --dur: 1s; 
 }
 
-.spooky:nth-child(1) {
-  animation: bounce 1s ease-in-out infinite;
+.camera-lens {
+  background: var(--bg);
+  color: var(--fg);
+  font: bold 1em/1.5 "Comfortaa", sans-serif;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  height: 100vh;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.spooky:nth-child(2) {
-  animation: bounce 1s ease-in-out 0.33s infinite;
+.spinning {
+  width: 10rem; 
+  height: 10rem; 
 }
 
-.spooky:nth-child(3) {
-  animation: bounce 1s ease-in-out 0.66s infinite;
+.circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: black; 
+  animation: expandAndContract var(--dur) infinite alternate ease-in-out; /* Animation */
 }
 
-.spooky-loader {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-.page-loader-container {
-  margin-top: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@keyframes bounce {
-  0%, 75%, 100% {
-    transform: translateY(0);
+@keyframes expandAndContract {
+  from {
+    transform: scale(1); /* Initial size */
   }
-
-  25% {
-    transform: translateY(-20px);
+  to {
+    transform: scale(1.5); /* Expanded size (adjust as needed) */
   }
 }
