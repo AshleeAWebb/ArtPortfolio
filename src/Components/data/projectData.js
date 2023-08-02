@@ -1,6 +1,13 @@
 // src/projectsData.js
 const projectsData = [
   {
+    title: "Game Night",
+    description: "Game Night is an app designed for organizing and scheduling board game get-togethers. Users can create a board game event based on the games in their collection, and join games happening near them.",
+    githubLink: "https://github.com/Game-Night-2301/game-night-fe",
+    liveLink: "https://game-night-fe.vercel.app/",
+    img: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBqd3ZsdzZvZmRjMDNueXh1N2p5cTg0bGU0M3NsMTlueDQycXllYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u7NqiVdc4oh9Jhg8Cj/giphy.gif",
+  },
+  {
     title: "Chompers",
     description: "Chompers is an innovative app dedicated to revolutionizing the way Shark Week enthusiasts explore and manage their favorite episodes.",
     githubLink: "https://github.com/AshleeAWebb/Chompers",
@@ -20,13 +27,6 @@ const projectsData = [
     githubLink: "https://github.com/AshleeAWebb/Spooky-Tic-Tac-Toe",
     liveLink: "https://ashleeawebb.github.io/Spooky-Tic-Tac-Toe/",
     img: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQwMWRkMGYxOGY3OWVhZjU2NzExYzdiODA3ODk0Mjk2MzZkNmFkOSZjdD1n/gfKZQHYcDGBQ8j7HRD/giphy.gif",
-  },
-  {
-    title: "Game Night",
-    description: "Game Night is an app designed for organizing and scheduling board game get-togethers. Users can create a board game event based on the games in their collection, and join games happening near them.",
-    githubLink: "https://github.com/Game-Night-2301/game-night-fe",
-    liveLink: "https://game-night-fe.vercel.app/",
-    img: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBqd3ZsdzZvZmRjMDNueXh1N2p5cTg0bGU0M3NsMTlueDQycXllYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u7NqiVdc4oh9Jhg8Cj/giphy.gif",
   },
   
 ];

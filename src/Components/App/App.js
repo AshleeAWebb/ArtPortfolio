@@ -9,6 +9,7 @@ import ErrorComponent from '../Error/Error';
 import './App.css';
 import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
+import Album from '../Photography/Album/Album';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" element={<Welcome />} />
             <Route path="/fineart" element={<FineArt />} />
             <Route path="/photography" element={<Photography />} />
+            <Route path="/album/:id" element={<Album />} />
             <Route path="/webdesign" element={<WebDesign />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/error" element={<ErrorComponent />} />

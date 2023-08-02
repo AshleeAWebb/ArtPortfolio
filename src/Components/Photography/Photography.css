@@ -1,8 +1,17 @@
 .photography-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photography-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.albums-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
