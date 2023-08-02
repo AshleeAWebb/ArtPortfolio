@@ -24,3 +24,12 @@
   padding: 1rem;
   max-width: 50rem;
 }
+
+.zoom-controls button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+  color: #333;
+}
