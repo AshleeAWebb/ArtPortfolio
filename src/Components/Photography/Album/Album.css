@@ -1,0 +1,30 @@
+.album-container {
+  margin-bottom: 20px;
+}
+
+.album {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.album-cover {
+  width: 75%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.album-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
