@@ -2,3 +2,8 @@
   font-family: 'Evil of Frankenstein';
   src: url('../fonts/EvilofFrankenstein.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Day Roman';
+  src: url('../fonts/DAYROM__.ttf') format('truetype');
+}
