@@ -27,7 +27,8 @@ const projectsData = [
     githubLink: "https://github.com/Game-Night-2301/game-night-fe",
     liveLink: "https://game-night-fe.vercel.app/",
     img: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBqd3ZsdzZvZmRjMDNueXh1N2p5cTg0bGU0M3NsMTlueDQycXllYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u7NqiVdc4oh9Jhg8Cj/giphy.gif",
-  }
+  },
+  
 ];
 
 export default projectsData;
