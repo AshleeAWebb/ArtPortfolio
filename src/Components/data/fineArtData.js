@@ -15,6 +15,11 @@ const fineArtData = [
     alt: "Night Bat",
     title: "Night Bat",
   },
+  {
+    src: "https://i.imgur.com/cHKCtuZ.jpg",
+    alt: "Colored pencil drawing",
+    title: "Memento Mori Drawing",
+  },
 ];
 
 export default fineArtData;
