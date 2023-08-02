@@ -1,0 +1,26 @@
+.detailed-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.detailed-image {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.detailed-image:hover {
+  transform: scale(1.2);
+}
+
+.info-container {
+  flex: 1;
+  padding: 1rem;
+  max-width: 50rem;
+}
