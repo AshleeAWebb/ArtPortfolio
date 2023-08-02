@@ -1,50 +1,104 @@
-// src/fineArtData.js
 const fineArtData = [
   {
+    id: 1,
     src: "https://i.imgur.com/rAbvWqe.jpg",
     alt: "Float",
     title: "Float",
+    date: "2020",
+    medium: "Pastel on meitei paper",
+    size: "24x36",
+    availableForSale: false,
+    printsAvailable: 0,
   },
   {
+    id: 2,
     src: "https://i.imgur.com/sqS3GKu.jpg?1",
     alt: "Night Bat",
     title: "Night Bat",
+    date: "2019",
+    medium: "Watercolor",
+    size: "18x24",
+    availableForSale: true,
+    printsAvailable: 0,
   },
   {
+    id: 3,
     src: "https://i.imgur.com/0NDoqnW.jpg",
     alt: "Screenprint, and watercolor art",
-    title: "Indecent"
+    title: "Indecent",
+    date: "2021",
+    medium: "Screenprint and Watercolor",
+    size: "20x30",
+    availableForSale: true,
+    printsAvailable: 8,
   },
   {
+    id: 4,
     src: "https://i.imgur.com/cHKCtuZ.jpg",
     alt: "Colored pencil drawing",
     title: "Memento Mori Drawing",
+    date: "2018",
+    medium: "Colored Pencil",
+    size: "16x20",
+    availableForSale: true,
+    printsAvailable: 0,
   },
   {
+    id: 5,
     src: "https://i.imgur.com/3WMQzSe.jpg",
     alt: "Wired",
     title: "Wired",
+    date: "2022",
+    medium: "Mixed Media",
+    size: "22x28",
+    availableForSale: true,
+    printsAvailable: 0,
   },
   {
+    id: 6,
     src: "https://i.imgur.com/Est8Rx1.jpg",
     alt: "Screenprint, and acetone transfer art",
-    title: "Messengers"
-  }, 
+    title: "Messengers",
+    date: "2019",
+    medium: "Screenprint and Acetone Transfer",
+    size: "12x18",
+    availableForSale: true,
+    printsAvailable: 5,
+  },
   {
+    id: 7,
     src: "https://i.imgur.com/sWidipL.jpg",
     alt: "CMYK Silkscreen art",
-    title: "Groomed No. 1" 
+    title: "Groomed No. 1",
+    date: "2021",
+    medium: "CMYK Silkscreen",
+    size: "18x24",
+    availableForSale: true,
+    printsAvailable: 4,
   },
   {
+    id: 8,
     src: "https://i.imgur.com/Sjff0Cl.jpg",
     alt: "CMYK Silkscreen art",
-    title: "Groomed No. 2" 
+    title: "Groomed No. 2",
+    date: "2021",
+    medium: "CMYK Silkscreen",
+    size: "18x24",
+    availableForSale: true,
+    printsAvailable: 4,
   },
   {
+    id: 9,
     src: "https://i.imgur.com/3ZyPqoL.jpg",
     alt: "CMYK Silkscreen art",
-    title: "Groomed No. 3" 
+    title: "Groomed No. 3",
+    date: "2021",
+    medium: "CMYK Silkscreen",
+    size: "18x24",
+    availableForSale: true,
+    printsAvailable: 4,
   }
 ];
 
 export default fineArtData;
+

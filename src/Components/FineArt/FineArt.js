@@ -1,5 +1,6 @@
 import React from 'react';
 import fineArtData from '../data/fineArtData';
+import { Link } from 'react-router-dom'; // Import Link
 import './FineArt.css';
 
 function FineArt() {
@@ -9,11 +10,13 @@ function FineArt() {
       <div className="image-grid">
         {fineArtData.map((image, index) => (
           <div key={index} className="image-container">
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="gallery-image"
-            />
+            <Link to={`/fineart/${image.id}`}> {/* Link to DetailedView */}
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="gallery-image"
+              />
+            </Link>
             <p className="image-title">{image.title}</p>
           </div>
         ))}

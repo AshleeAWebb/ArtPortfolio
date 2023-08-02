@@ -10,6 +10,7 @@ import './App.css';
 import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
 import Album from '../Photography/Album/Album';
+import DetailedView from '../FineArt/DetailedView/DetailedView';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Welcome />} />
             <Route path="/fineart" element={<FineArt />} />
+            <Route path="/fineart/:id" element={<DetailedView />} />
             <Route path="/photography" element={<Photography />} />
             <Route path="/album/:id" element={<Album />} />
             <Route path="/webdesign" element={<WebDesign />} />
