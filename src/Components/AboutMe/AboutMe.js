@@ -1,17 +1,13 @@
-// Import React and useState hook
+
 import React, { useState } from "react";
-
-// Import CSS styles
 import "./AboutMe.css";
-
-// Import images
 import linkedinLogo from "../../Assets/linkedin.png";
 import githubLogo from "../../Assets/github.png";
 import instagramLogo from "../../Assets/instagram.png";
 import gmailLogo from "../../Assets/gmail.png";
 
+
 const AboutMe = () => {
-  // State for toggling bio and statement sections
   const [isBioSectionOpen, setBioSectionOpen] = useState(false);
   const [isStatementSectionOpen, setStatementSectionOpen] = useState(false);
 

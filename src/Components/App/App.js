@@ -7,6 +7,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import WebDesign from '../WebDesign/WebDesign';
 import ErrorComponent from '../Error/Error';
 import './App.css';
+import '../../Assets/fonts/font.css';
 import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
 import Album from '../Photography/Album/Album';
