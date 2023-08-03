@@ -1,12 +1,19 @@
 :root {
-  font-size: 16px; 
+  font-size: 16px;
   --primary-color: #333333;
   --secondary-color: #555555;
   --link-color: #007BFF;
+  --container-bg: #f8f9fa;
+  --container-padding: 2rem;
+  --container-radius: 10px;
 }
 
 body {
   font-family: 'Lexend Regular', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  margin: 0;
+  color: var(--secondary-color);
 }
 
 h1, h2 {
@@ -22,30 +29,45 @@ h2 {
   font-size: 24px;
   margin-top: 20px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 20px;
-  line-height: 1.6;
-  color: var(--secondary-color);
 }
 
-.welcomepage-text-box ,
+.aboutme-container,
+.welcome-container,
 .aboutme-section {
-  padding: 2rem;
-  margin-bottom: 2rem;
-  background: #f8f9fa;
-  border-radius: 10px;
+  padding: var(--container-padding);
+  margin: 20px;
+  background: var(--container-bg);
+  border-radius: var(--container-radius);
   position: relative;
 }
 
 .welcome-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.section-shape h2 {
-  cursor: pointer;
+.welcomepage-text-box {
+  flex: 0 0 60%;
+}
+
+.ash-selfie {
+  flex: 0 0 40%;
+  width: 300px;
+  height: auto;
+}
+
+.section-shape {
+  padding: var(--container-padding);
+  margin-bottom: var(--container-padding);
+  background: var(--container-bg);
+  border-radius: var(--container-radius);
 }
 
 .aboutme-links {

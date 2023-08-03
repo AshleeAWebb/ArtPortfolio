@@ -25,9 +25,9 @@ function Header() {
         </div>
       </div>
       <nav className="nav">
-      <NavLink className="nav-link" to="/fineart">Fine Art</NavLink>
+      <NavLink className="nav-link" to="/fineart">Art</NavLink>
           <NavLink className="nav-link" to="/photography">Photography</NavLink>
-          <NavLink className="nav-link" to="/webdesign">Web Design</NavLink>
+          <NavLink className="nav-link" to="/webdesign">Design</NavLink>
           <NavLink className="nav-link" to="/about">About</NavLink>
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </nav>

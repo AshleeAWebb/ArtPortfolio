@@ -35,7 +35,7 @@ function App() {
         <Background />
         <main>
           <Routes>
-            <Route path="/" element={<Welcome />} />
+            <Route path="/" element={<FineArt />} />
             <Route path="/fineart" element={<FineArt />} />
             <Route path="/fineart/:id" element={<DetailedView />} />
             <Route path="/photography" element={<Photography />} />

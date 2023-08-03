@@ -7,39 +7,24 @@ const About = () => {
   const [isStatementSectionOpen, setStatementSectionOpen] = useState(false);
 
   return (
-    <div className="aboutme-container">
-      <div className="welcome-container">
-      <img
-        src="https://i.imgur.com/k8HEoY3.jpg"
-        alt="Ash Selfie"
-        style={{ width: '300px', height: 'auto' }}
-      />
-      <div className="welcomepage-text-box">
-        <p className="welcomepage-text">
-          I'm Ash, an artist and web developer passionate about bringing imagination to life.
-          Whether wielding a paintbrush or typing code, I create extraordinary experiences.
-          Explore the vibrant world of colors, shapes, and digital wonders.
-        </p>
-        <p>
-          Let's team up and turn your vision into reality! stunning artwork or cutting-edge websites.
-          <br />
-          <br />
-          Join me on this exciting adventure of artistry and technology!
-        </p>
-        </div>
-      </div>
-
-      <div className="aboutme-section">
-        <h1>About Me</h1>
-        <h2>Unleashing Artistry in Code</h2>
-        <p className="aboutMeInfo">
-          I have a diverse background in Fine Arts and Naval Engineering.
-          I specialize in crafting engaging and intuitive experiences that captivate users with both beauty and seamless functionality.
-          With my keyboard as a brush and the digital world as my canvas, I am eager to collaborate on projects that enhance the
-          online experience for everyone. Let's work together to create web "masterpieces" and make the internet a more
-          captivating place for all.
-        </p>
-      </div>
+    <>
+    <h1>About Me</h1>
+    <div class="aboutme-container">
+  <div class="welcome-container">
+    <div class="welcomepage-text-box">
+      <h2>Hello there!</h2>
+      <p>My name is Ash, and I'm a multi-talented creative professional.</p>
+      <p>Whether I'm working with a paintbrush, camera or typing code, my goal is always to create exceptional experiences.</p>
+      <h3>Background</h3>
+      <p>With a background in Fine Arts focused in photography and printmaking, Naval Engineering, and Front-End Development, I bring a unique perspective to my work.</p>
+      <h3>Education</h3>
+      <p>Currently, I'm pursuing a Master's degree in User Experience Design.</p>
+      <h3>Let's Collaborate!</h3>
+      <p>I'd love to team up with you to turn your vision into a reality through stunning artwork or cutting-edge websites. Let's embark on this exciting adventure of artistry and technology together!</p>
+    </div>
+    <img src="https://i.imgur.com/k8HEoY3.jpg" alt="Ash Selfie" class="ash-selfie"/>
+  </div>
+</div>
 
       <div className="aboutme-section section-shape">
         <h2 onClick={() => setBioSectionOpen(!isBioSectionOpen)}>Artist Bio {isBioSectionOpen ? "▼" : "►"}</h2>
@@ -75,8 +60,7 @@ const About = () => {
           </p>
         )}
       </div>
-      
-    </div>
+      </>
   );
 };
 
