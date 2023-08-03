@@ -2,6 +2,11 @@ ul {
   list-style: none;
   padding: 0;
 }
+.contact-section {
+  background-color: #ffffff8d;
+  padding: .5rem;
+  border-radius: 20px;
+}
 
 .contact-page {
   display: flex;

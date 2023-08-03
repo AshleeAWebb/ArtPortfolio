@@ -7,9 +7,9 @@ function FineArt() {
   return (
     <div className="gallery-container">
       <h1 className="gallery-title">Fine Art</h1>
-      <div className="image-grid">
+      <div className="art-image-grid">
         {fineArtData.map((image, index) => (
-          <div key={index} className="image-container">
+          <div key={index} className="art-image-container">
             <Link to={`/fineart/${image.id}`}> {/* Link to DetailedView */}
               <img
                 src={image.src}

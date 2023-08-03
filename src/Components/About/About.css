@@ -3,7 +3,7 @@
   --primary-color: #333333;
   --secondary-color: #555555;
   --link-color: #007BFF;
-  --container-bg: #f8f9fa;
+  --container-bg: #ffffff64;
   --container-padding: 2rem;
   --container-radius: 10px;
 }
@@ -38,7 +38,6 @@ p {
 }
 
 .aboutme-container,
-.welcome-container,
 .aboutme-section {
   padding: var(--container-padding);
   margin: 20px;

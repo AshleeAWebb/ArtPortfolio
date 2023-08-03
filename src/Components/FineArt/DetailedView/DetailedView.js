@@ -14,7 +14,7 @@ function DetailedView() {
 
   return (
     <div className="detailed-container">
-      <div className="image-container">
+      <div className="detailed-image-container">
         <img
           src={artwork.src}
           alt={artwork.alt}
