@@ -1,9 +1,21 @@
 @font-face {
   font-family: 'Evil of Frankenstein';
-  src: url('../fonts/EvilofFrankenstein.ttf') format('truetype');
+  src: url('../fonts/EvilofFrankenstein.woff2') format('woff2'),
+       url('../fonts/EvilofFrankenstein.woff') format('woff'),
+       url('../fonts/EvilofFrankenstein.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Lexend Regular';
-  src: url('../fonts/Lexend-Regular.ttf') format('truetype');
+  src: url('../fonts/Lexend-Regular.woff2') format('woff2'),
+       url('../fonts/Lexend-Regular.woff') format('woff'),
+       url('../fonts/Lexend-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3 {
+  font-family: 'Evil of Frankenstein', 'Roboto Slab', Arial, sans-serif;
+}
+
+ body {
+  font-family: 'Lexend Regular', Helvetica, sans-serif;
 }

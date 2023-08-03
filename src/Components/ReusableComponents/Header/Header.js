@@ -5,7 +5,7 @@ import logo from '../../../Assets/Spooky Logo.svg';
 
 function Header() {
   return (
-    <header>
+    <header className='main-header'>
       <div className='flex-header'>
            <NavLink className="nav-link" to="/">
         <img className='logo' src={logo} alt="Logo" />

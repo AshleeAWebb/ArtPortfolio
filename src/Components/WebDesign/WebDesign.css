@@ -1,9 +1,11 @@
 /* src/Projects.css */
 .project-card {
   border: 1px solid #ddd;
+  background-color: #fff;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
+  max-width: 70rem;
 }
 
 .project-card h2 {
@@ -22,4 +24,11 @@
 .project-card a {
   display: block;
   margin-top: 10px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
 }

@@ -11,6 +11,7 @@ import PageLoader from '../ReusableComponents/PageLoader/PageLoader';
 import Header from '../ReusableComponents/Header/Header';
 import Album from '../Photography/Album/Album';
 import DetailedView from '../FineArt/DetailedView/DetailedView';
+import Background from '../ReusableComponents/Background/Background';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
     <Router>
       <div className="App">
         <Header /> 
+        <Background />
         <main>
           <Routes>
             <Route path="/" element={<Welcome />} />
