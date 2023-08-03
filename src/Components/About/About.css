@@ -89,7 +89,84 @@ a {
   color: var(--link-color);
 }
 
-img {
-  max-width: 100%;
+
+
+.welcomepage-text-box h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+.welcomepage-text-box h3 {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin: 15px 0;
+}
+
+.welcomepage-text-box p {
+  margin-bottom: 15px;
+}
+
+.ash-selfie {
+  max-width: 24rem;
   height: auto;
+  border-radius: var(--container-radius);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* For tablets and small desktops */
+@media (max-width: 992px) {
+  .welcome-container {
+    flex-direction: column;
+  }
+  
+  .welcomepage-text-box,
+  .ash-selfie {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .ash-selfie {
+    width: 100%;
+  }
+}
+
+/* For landscape phones and smaller tablets */
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1rem;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* For portrait phones and smaller devices */
+@media (max-width: 576px) {
+  :root {
+    --container-padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  
+  .aboutme-links {
+    flex-direction: column;
+  }
+  
+  .aboutme-logo,
+  .camera-logo,
+  .emoji-logo {
+    font-size: 2rem;
+  }
 }
