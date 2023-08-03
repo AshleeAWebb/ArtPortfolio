@@ -42,3 +42,54 @@
   font-size: 16px;
   margin-top: 10px;
 }
+
+/* For tablets and small desktops */
+@media (max-width: 992px) {
+  .image-grid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+
+  .gallery-title {
+    font-size: 20px;
+  }
+
+  .image-title {
+    font-size: 14px;
+  }
+}
+
+/* For landscape phones and smaller tablets */
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  }
+
+  .gallery-title {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+
+  .image-container {
+    padding: 8px;
+  }
+
+  .image-title {
+    font-size: 12px;
+  }
+}
+
+/* For portrait phones and smaller devices */
+@media (max-width: 576px) {
+  .gallery-title {
+    font-size: 16px;
+    padding: 0.25rem;
+  }
+
+  .image-container {
+    padding: 6px;
+  }
+
+  .image-title {
+    font-size: 10px;
+  }
+}
