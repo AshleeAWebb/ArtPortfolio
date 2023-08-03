@@ -38,7 +38,8 @@
 }
 
 .image-title {
+  font-family: 'Lexend Regular', sans-serif;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 10px;
 }
