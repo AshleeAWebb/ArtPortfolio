@@ -10,10 +10,14 @@ function Header() {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <header className='main-header'>
-      <div className="header-content"> {/* Added this container */}
-        <NavLink className="home-nav-link" to="/">
+      <div className="header-content">
+        <NavLink className="home-nav-link" to="/" onClick={closeMobileMenu}>
           <img className='logo' src={logo} alt="Logo" />
         </NavLink>
         <div className="hamburger" onClick={handleHamburgerClick}>
@@ -26,14 +30,14 @@ function Header() {
           <NavLink className="nav-link" to="/webdesign">Web Design</NavLink>
           <NavLink className="nav-link" to="/about">About</NavLink>
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
-      </nav>
+          </nav>
       {mobileMenuOpen && (
         <nav className="nav-mobile">
-          <NavLink className="nav-link" to="/fineart">Fine Art</NavLink>
-          <NavLink className="nav-link" to="/photography">Photography</NavLink>
-          <NavLink className="nav-link" to="/webdesign">Web Design</NavLink>
-          <NavLink className="nav-link" to="/about">About</NavLink>
-          <NavLink className="nav-link" to="/contact">Contact</NavLink>
+          <NavLink className="nav-link" to="/fineart" onClick={closeMobileMenu}>Fine Art</NavLink>
+          <NavLink className="nav-link" to="/photography" onClick={closeMobileMenu}>Photography</NavLink>
+          <NavLink className="nav-link" to="/webdesign" onClick={closeMobileMenu}>Web Design</NavLink>
+          <NavLink className="nav-link" to="/about" onClick={closeMobileMenu}>About</NavLink>
+          <NavLink className="nav-link" to="/contact" onClick={closeMobileMenu}>Contact</NavLink>
         </nav>
       )}
     </header>

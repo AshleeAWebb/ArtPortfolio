@@ -40,8 +40,8 @@
 }
 
 .hamburger {
-  display: none; /* Hides the hamburger in large view */
-  font-size: 2rem;
+  display: none;
+  font-size: 3rem; 
   cursor: pointer;
 }
 
