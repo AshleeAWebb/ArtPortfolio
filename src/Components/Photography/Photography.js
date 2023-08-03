@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Photography() {
   return (
     <div className="gallery-container">
-      <h1 className="gallery-title">Photography Page</h1>
+      <h1 className="gallery-title">Photography</h1>
       <div className="image-grid">
         {albumData.map((album) => (
           <div key={album.id} className="image-container">
